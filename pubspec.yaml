@@ -1,0 +1,15 @@
+name: canada_postal_code_formatter
+description: A handy TextInputFormatter that ensures adherence to the Canadian Postal Code Format.
+version: 0.0.1
+homepage: https://github.com/simongroom/flutter_canada_postal_code_formatter
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
