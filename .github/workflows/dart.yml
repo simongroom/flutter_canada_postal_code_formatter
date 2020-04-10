@@ -19,12 +19,12 @@ jobs:
     - uses: actions/setup-java@v1
       with:
         java-version: '12.x' 
-    - uses: subosito/flutter-action@v1
+    - uses: subosito/flutter-action@v1.2.0
       with:
           channel: 'stable'
     - name: Install dependencies
       run: flutter pub get
-    - name: Flutter Analyzw
+    - name: Flutter Analyze
       run: flutter analyze
     - name: Run tests
       run: flutter test --coverage
