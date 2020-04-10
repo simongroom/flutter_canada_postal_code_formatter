@@ -16,7 +16,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      
+    - uses: subosito/flutter-action@v1
+      with:
+          flutter-version: '1.12.13+hotfix.8'
+          channel: 'stable'
     - name: Install dependencies
       run: flutter pub get
+    - name: Flutter Analyzw
+      run: flutter analyze
     - name: Run tests
-      run: pub run test
+      run: flutter test --coverage
