@@ -1,4 +1,5 @@
 # canada_postal_code_formatter
+![Dart CI](https://github.com/simongroom/flutter_canada_postal_code_formatter/workflows/Dart%20CI/badge.svg)
 
 A handy TextInputFormatter that ensures adherence to the Canadian Postal Code Format.
 
